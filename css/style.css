@@ -1,0 +1,217 @@
+@import "./reset.css";
+
+body {
+    background-color: #fff;
+}
+
+.header_top {
+    background-color: #fff;
+    max-width: 940px;
+    height: 88px;
+    margin: 0 auto;
+    padding-top: 33px;
+    border-bottom: 1px solid #828282;
+    margin-bottom: 40px;
+
+}
+
+.header_top a {
+    color: #828282;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 155px;
+    align-items: center;
+}
+
+
+.links a {
+    position: relative;
+}
+
+.links a.active,
+.links a:hover {
+    color: black;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 0px;
+    color: black;
+
+}
+
+.name {
+    font-size: 47px;
+    max-width: 123px;
+}
+
+.about {
+    max-width: 155px;
+    padding-top: 64px;
+}
+
+.ln {
+    transform: rotate(-90deg);
+    color: black;
+    display: flex;
+    column-gap: 10px;
+    margin-right: -70px;
+}
+
+.ln a {
+    color: black;
+    height: 20px;
+}
+
+.avatar {
+    margin: 0 auto;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+
+.info {
+
+    background-color: #F6F6F6;
+    padding-top: 0px;
+    color: black;
+    height: 506px;
+
+}
+
+.container {
+    padding-top: 120px;
+    padding-bottom: 107px;
+    width: 485px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.par {
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.par p {
+    margin-top: 0.5em;
+    /* Отступ сверху */
+    margin-bottom: 1em;
+    /* Отступ снизу */
+    font-size: 18px;
+}
+
+.am {
+    font-size: 34px;
+}
+
+.skills {
+
+    background-color: #fff;
+    padding-top: 0px;
+    color: black;
+    height: 610px;
+    text-align: center;
+
+}
+
+.skills h1 {
+    font-size: 34px;
+    padding-top: 91px;
+    padding-bottom: 70px;
+}
+
+.skills p {
+    font-size: 18px;
+    padding-bottom: 83px;
+}
+
+.portfolio {
+
+    background-color: #F6F6F6;
+    margin: 0 auto;
+    padding-top: 0px;
+    color: black;
+    height: 2134px;
+    text-align: center;
+
+}
+
+.portfolio h1 {
+    font-size: 34px;
+    padding-top: 112px;
+    padding-bottom: 47px;
+
+}
+
+.portfolio img {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+.portfolio a {
+    color: #000;
+}
+
+.contacts {
+
+    background-color: #fff;
+    padding-top: 0px;
+    color: black;
+    height: 622px;
+    text-align: center;
+
+
+}
+
+.contacts h1 {
+    font-size: 34px;
+    padding-top: 114px;
+    padding-bottom: 20px;
+}
+
+.contacts p {
+    font-size: 18px;
+}
+
+.textc {
+    padding-bottom: 30px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border-radius: 100px;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.imgicon img {
+    padding-top: 80px;
+    width: 340px;
+
+}
+
+.end {
+    color: #828282;
+    font-size: 14px;
+    padding-top: 44px;
+}
